@@ -1,9 +1,7 @@
-class Person:
-    def __init__(self):
-        pass
-    @classmethod
-    def greet(cls,word:str):
-        print(word)
-        return 100
+import random
 
-Person.greet("Hello")
+
+my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
+
+# Get the keys as a list
+print('nam2e' in my_dict.keys())
